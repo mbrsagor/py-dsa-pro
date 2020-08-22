@@ -1,1 +1,1 @@
-def fibonacci_number(n):    if n == 0 or n == 1 or n == 2:        return n    else:        return fibonacci_number(n - 1) + (n + 1)fibo = fibonacci_number(5)print(fibo)
+def fibonacci_number(n):    if n == 0 or n == 1:        return n    else:        return n + fibonacci_number(n - 1)n = 5print("The fibonacci number", n, "is", fibonacci_number(n))
