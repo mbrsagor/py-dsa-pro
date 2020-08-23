@@ -1,0 +1,1 @@
+import collectionsdict1 = {'day': 'mon', 'day2': 'tue'}dict2 = {'day3': 'sun', 'day4': 'fri'}res = collections.ChainMap(dict1, dict2)print(res.maps, '\n')print(f"Keys: {list(res.keys())}")print(f"Value: {list(res.values())}")print("\n")for key, val in res.items():    print(f"{key} = {val}")
