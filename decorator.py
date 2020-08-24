@@ -1,0 +1,1 @@
+def say_something(func):    def wrapper():        func()        print("I'm working on python decorator.")        print("python decorator is really awesome.")    return wrapper@say_somethingdef say_hi():    print("Hi there!")say_hi()
