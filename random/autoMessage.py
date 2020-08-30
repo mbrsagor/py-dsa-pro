@@ -1,0 +1,1 @@
+import pyautoguiimport timedef send_message_facebook():    count = 2    while count > 0:        time.sleep(2)        pyautogui.write("Hey bro, I love you")        time.sleep(2)        pyautogui.press("enter")send_message_facebook()
