@@ -1,0 +1,1 @@
+li1 = [x for x in range(11)]print(li1)li2 = [y for y in li1 if y % 2 == 0]print(li2)
