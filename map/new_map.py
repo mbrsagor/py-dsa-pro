@@ -1,0 +1,1 @@
+def iterator(it):    while True:        return itli = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]it2 = iterator(li)print(it2)
