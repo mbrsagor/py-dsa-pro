@@ -1,0 +1,1 @@
+def search(items, value):    for i in range(len(items)):        if items[i] == value:            return f"Found {value}"    return f"Sorry! not found {value}"items = [1, 2, 3, 4, 5]result = search(items, 2)print(result)
