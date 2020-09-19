@@ -1,0 +1,1 @@
+import jsondata = {    1: {'name': 'mbr sagor', 'age': 26},    2: {'name': 'md. ohi', 'age': 4},    3: {'name': 'meg babu', 'age': 6},}for key, val in data.items():    _data = f"{key} : {val}"    new_data = json.dumps(_data)    print(new_data)
