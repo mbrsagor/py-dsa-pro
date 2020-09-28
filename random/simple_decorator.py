@@ -1,0 +1,1 @@
+def name(n):    def full_name():        n()        print("My name is Bozlur Rosid Sagor")    return full_name@namedef say_name():    print("Hello,")say_name()
