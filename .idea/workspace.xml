@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7800e6e-179d-4171-a8dc-2cc144bf5d27" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/random/simple_decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/quicksort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +16,8 @@
     <SUITE FILE_PATH="coverage/pyTest$singleLink.coverage" NAME="singleLink Coverage Results" MODIFIED="1598857721203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/pyTest$file.coverage" NAME="file Coverage Results" MODIFIED="1600516556949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/pyTest$map.coverage" NAME="map Coverage Results" MODIFIED="1598178449573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyTest$simple_decorator.coverage" NAME="simple_decorator Coverage Results" MODIFIED="1601291579512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
-    <SUITE FILE_PATH="coverage/pyTest$newSll.coverage" NAME="newSll Coverage Results" MODIFIED="1599337090571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
+    <SUITE FILE_PATH="coverage/pyTest$simple_decorator.coverage" NAME="simple_decorator Coverage Results" MODIFIED="1601291820026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
+    <SUITE FILE_PATH="coverage/pyTest$newSll.coverage" NAME="newSll Coverage Results" MODIFIED="1601495517812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linklist" />
     <SUITE FILE_PATH="coverage/pyTest$ternary_operator.coverage" NAME="ternary_operator Coverage Results" MODIFIED="1600372372506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/list" />
     <SUITE FILE_PATH="coverage/pyTest$generator.coverage" NAME="generator Coverage Results" MODIFIED="1600374623756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/map" />
     <SUITE FILE_PATH="coverage/pyTest$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1601291446678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
@@ -88,47 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linkList.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linklist/linkList.py">
+      <file leaf-file-name="quicksort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sorting/quicksort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorting/selection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="factorial.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factorial/factorial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decorator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/random/decorator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_decorator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random/simple_decorator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="36">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -171,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fibonacci/fibonacci.py" />
         <option value="$PROJECT_DIR$/forloop.py" />
         <option value="$PROJECT_DIR$/while.py" />
         <option value="$PROJECT_DIR$/fibonacci/fibo.py" />
@@ -222,6 +185,7 @@
         <option value="$PROJECT_DIR$/random/decorator.py" />
         <option value="$PROJECT_DIR$/factorial/factorial.py" />
         <option value="$PROJECT_DIR$/random/simple_decorator.py" />
+        <option value="$PROJECT_DIR$/sorting/quicksort.py" />
       </list>
     </option>
   </component>
@@ -245,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,12 +244,18 @@
             <path>
               <item name="pyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyTest" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyTest" type="462c0819:PsiDirectoryNode" />
               <item name="stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.simple_decorator">
+  <component name="RunManager" selected="Python.newSll">
     <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -350,6 +319,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorial/factorial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="newSll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linklist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linklist/newSll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,39 +381,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack/stack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.factorial" />
       <item itemvalue="Python.queue" />
-      <item itemvalue="Python.stack" />
       <item itemvalue="Python.decorator" />
       <item itemvalue="Python.simple_decorator" />
+      <item itemvalue="Python.newSll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.newSll" />
         <item itemvalue="Python.simple_decorator" />
         <item itemvalue="Python.decorator" />
         <item itemvalue="Python.factorial" />
         <item itemvalue="Python.queue" />
-        <item itemvalue="Python.stack" />
       </list>
     </recent_temporary>
   </component>
@@ -451,9 +420,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287858" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52322406" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52322406" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.6912568" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
@@ -556,13 +525,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db_backup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sorting/map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -789,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linklist/newSll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/list/dict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -824,10 +779,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/queue/queue.py">
+    <entry file="file://$PROJECT_DIR$/factorial/factorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/simple_decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -838,24 +807,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factorial/factorial.py">
+    <entry file="file://$PROJECT_DIR$/queue/queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="648">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random/simple_decorator.py">
+    <entry file="file://$PROJECT_DIR$/linklist/newSll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="504">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random/decorator.py">
+    <entry file="file://$PROJECT_DIR$/sorting/quicksort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="36">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
