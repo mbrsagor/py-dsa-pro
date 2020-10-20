@@ -18,7 +18,7 @@ def remove_duplicate_values(arr, num):
     return j
 
 
-items = [1, 2, 2, 3, 4, 4, 4, 5, 5]
+items = [int(x) for x in input('Enter numbers: ').split()]
 val = len(items)
 _val = remove_duplicate_values(items, val)
 for v in range(_val):
