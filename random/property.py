@@ -1,4 +1,4 @@
-class BD(object):
+class Bangladesh(object):
 
     def __init__(self):
         self._score = 0
@@ -11,9 +11,10 @@ class BD(object):
     def score(self, new_score):
         if new_score <= 0:
             raise ValueError("Score can't be negative value")
-        self._score = new_score
+        else:
+            self._score = new_score
 
 
-bd = BD()
-bd.score = 3
+bd = Bangladesh()
+bd.score = 300
 print(bd.score)
