@@ -17,7 +17,7 @@ class Person(object):
 
 person = Person(26, 'Sagor')
 print(hash(person))
-person2 = Person(26, 'Sagor')
+person2 = Person(29, 'Masba')
 print(hash(person2))
 
 if person == person2:

@@ -1,1 +1,1 @@
-def factorial(n):    if n == 0 or n == 1:        return n    else:        return n * factorial(n - 1)num = 5print(f"Total factorial of {num} is a {factorial(num)}")
+def factorial(num):    n = num - 1    if num == 0 or num == 1:        return num    else:        return num * factorial(n)print(factorial(5))# for i in range(factorial(5)+1):#     print(i)
